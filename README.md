@@ -1,6 +1,6 @@
-# cpp_template
+# fork bomb
 
-template for cpp projects
+a wonderful program that spams you with 894 different names for penis! enjoy!
 
 has various presets that can be used with cmake --preset=config
 example:
@@ -10,10 +10,3 @@ ninja -C build/debug
 
 # package manager
 using cpm as a package manager
-
-# clang format/tidy
-copied the clang format and tidy files from lefticus's cmake preset github page, made some slight modifications like tab sizes
-usage:
-
-clang-tidy -p build/debug main.cpp
-clang-format main.cpp

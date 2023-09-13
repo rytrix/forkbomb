@@ -4,7 +4,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_compile_definitions(_DEBUG)
 endif()
 
-project(template)
+project(forkbomb)
 add_executable(${PROJECT_NAME} main.cpp)
 
 include(cmake/CPM.cmake)
