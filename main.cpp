@@ -2,7 +2,6 @@
 #include <functional>
 #include <random>
 #include <thread>
-#include <fmt/core.h>
 
 // source https://giggeli.com/blogs/news/800-terms-for-the-penis
 const char *names[] = {
@@ -908,7 +907,7 @@ auto dice = std::bind(distribution, generator);
 
 void penis() {
   auto index = dice();
-  fmt::print("{}\n", names[index]);
+  printf("%s\n", names[index]);
   std::thread t(penis);
   penis();
   t.join();
