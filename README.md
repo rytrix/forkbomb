@@ -7,6 +7,3 @@ example:
  
 cmake --preset=linux-clang-debug &&
 ninja -C build/debug
-
-# package manager
-using cpm as a package manager
